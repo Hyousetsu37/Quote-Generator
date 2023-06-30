@@ -63,7 +63,7 @@ function tweetQuote() {
 function amorcitoQuote() {
   quoteText.textContent =
     "Mi amor, habrá días en los que no puedas más, donde quieras dejarlo todo y es en esos días donde más cerca estaré de ti, para que puedas recuperarte y seguir adelante, te amo, y aquí estaré mi princesa hermosa";
-  authorText.textContent = "Tu amorcito";
+  authorText.textContent = "Tu amorcito.";
   if (quoteText.length > 120) {
     quoteText.classList.add("long-quote");
   } else {
